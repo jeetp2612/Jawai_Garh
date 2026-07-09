@@ -42,19 +42,29 @@ interface BookingFormData {
 
 const heroSlides = [
   {
-    image: 'https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=1920',
-    title: 'Stay in the Lap of Wilderness, with Luxury & Comfort',
-    subtitle: 'Experience the majestic land of leopards and luxury at Jawai Garh, Rajasthan.',
+    image: '../public/1_land.jpeg',
+    title: 'Serene Evenings Amidst Nature',
+    subtitle: 'Unwind on our lush green lawns as the sun sets over the majestic hills of Jawai.'
   },
   {
-    image: 'https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=1920',
-    title: 'Where Wildlife Meets Elegance',
-    subtitle: 'Wake up to breathtaking views of rocky hills and wilderness.',
+    image: '../public/2_land.jpeg',
+    title: 'Welcome to Leopard Territory',
+    subtitle: 'Step into Jawai Garh, where the thrill of the wild meets unparalleled royal hospitality.'
   },
   {
-    image: 'https://images.pexels.com/photos/208739/pexels-photo-208739.jpeg?auto=compress&cs=tinysrgb&w=1920',
-    title: 'An Unforgettable Safari Experience',
-    subtitle: 'Discover the land of leopards in style and comfort.',
+    image: '../public/3_land.jpeg',
+    title: 'A Grand Entrance Awaits',
+    subtitle: 'Enter a realm of rustic elegance, beautifully illuminated under the vibrant evening sky.'
+  },
+  {
+    image: '../public/4_land.jpeg',
+    title: 'Rustic Charm, Modern Luxury',
+    subtitle: 'Relax in our beautifully crafted stone cottages, designed for a perfect blend of comfort and heritage.'
+  },
+  {
+    image: '../public/5_land.jpeg',
+    title: 'Dive into Tranquility',
+    subtitle: 'Take a refreshing dip in our pristine pool while soaking in the golden hues of the setting sun.'
   },
 ];
 
@@ -67,10 +77,12 @@ const cottageDetails = {
     extraBed: 1800,
     amenities: ['King Size Bed', 'Private Balcony', 'En-suite Bathroom', 'Mini Bar', 'Air Conditioning'],
     images: [
-      'https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/2631746/pexels-photo-2631746.jpeg?auto=compress&cs=tinysrgb&w=800',
+      '../public/royalcottage.jpeg',
+      '../public/1_royal.jpeg',
+      '../public/2_royal.jpeg',
+      '../public/3_royal.jpeg',
+      '../public/4_royal.jpeg',
+    
     ],
   },
   family: {
@@ -81,23 +93,25 @@ const cottageDetails = {
     extraBed: 1800,
     amenities: ['Two Bedrooms', 'Living Area', 'Private Balcony', 'Full Bathroom', 'Air Conditioning'],
     images: [
-      'https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/271673/pexels-photo-271673.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=800',
-      'https://images.pexels.com/photos/1743231/pexels-photo-1743231.jpeg?auto=compress&cs=tinysrgb&w=800',
+      '../public/familycottage.jpeg',
+      '../public/1_family.jpeg',
+      '../public/2_family.jpeg',
+      '../public/3_family.jpeg',
+      '../public/4_family.jpeg',
+
     ],
   },
 };
 
 const galleryImages = [
-  { src: 'https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Jawai Garh Resort Exterior', category: 'resort' },
-  { src: 'https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Luxury Cottage Interior', category: 'interior' },
-  { src: 'https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Wilderness View from Resort', category: 'resort' },
-  { src: 'https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Royal Cottage Bedroom', category: 'interior' },
-  { src: 'https://images.pexels.com/photos/208739/pexels-photo-208739.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Safari Landscape Jawai', category: 'resort' },
-  { src: 'https://images.pexels.com/photos/271673/pexels-photo-271673.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Family Cottage Living Area', category: 'interior' },
-  { src: 'https://images.pexels.com/photos/1743231/pexels-photo-1743231.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Dining Area', category: 'interior' },
-  { src: 'https://images.pexels.com/photos/2631746/pexels-photo-2631746.jpeg?auto=compress&cs=tinysrgb&w=800', alt: 'Premium Room Amenities', category: 'interior' },
+  { src: '../public/12.jpeg', alt: 'Jawai Garh Resort Exterior', category: 'resort' },
+  { src: '../public/2_royal.jpeg', alt: 'Luxury Cottage Interior', category: 'interior' },
+  { src: '../public/15.jpeg', alt: 'Wilderness View from Resort', category: 'resort' },
+  { src: '../public/2_royal.jpeg', alt: 'Royal Cottage Bedroom', category: 'interior' },
+  { src: '../public/11.jpeg', alt: 'Safari Landscape Jawai', category: 'resort' },
+  { src: '../public/familycottage.jpeg', alt: 'Family Cottage Living Area', category: 'interior' },
+  { src: '../public/3_land.jpeg', alt: 'Dining Area', category: 'interior' },
+  { src: '../public/3_family.jpeg', alt: 'Premium Room Amenities', category: 'interior' },
 ];
 
 function Header({ onBookClick }: { onBookClick: () => void }) {
@@ -331,14 +345,14 @@ function ExperienceSection() {
               <div className="space-y-4">
                 <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-2xl">
                   <img
-                    src="https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="../public/1_land.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt="Jawai Garh Resort in Rajasthan"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div className="aspect-square rounded-lg overflow-hidden shadow-xl">
                   <img
-                    src="https://images.pexels.com/photos/208739/pexels-photo-208739.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    src="../public/safari.jpeg?auto=compress&cs=tinysrgb&w=400"
                     alt="Jawai Wildlife Safari"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
@@ -347,14 +361,14 @@ function ExperienceSection() {
               <div className="space-y-4 pt-8">
                 <div className="aspect-square rounded-lg overflow-hidden shadow-xl">
                   <img
-                    src="https://images.pexels.com/photos/237272/pexels-photo-237272.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    src="../public/rockyhills.jpeg?auto=compress&cs=tinysrgb&w=400"
                     alt="Rocky Hills of Jawai"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-2xl">
                   <img
-                    src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="../public/2_family.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt="Luxury Cottage Interior"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
@@ -1102,13 +1116,13 @@ function Footer() {
             <h4 className="font-semibold text-lg mb-6">Find Us</h4>
             <div className="bg-wilderness-700 rounded-lg overflow-hidden h-48">
               <iframe
-                title="Jawai Garh Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14484.769555683474!2d73.45!3d25.1!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDA2JzAwLjAiTiA3M8KwMjcnMDAuMCJF!5e0!3m2!1sen!2sin!4v1600000000000!5m2!1sen!2sin"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                loading="lazy"
-              />
+  title="Jawai Garh Location"
+  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3612.5456997443284!2d73.20305517537915!3d25.117235377762565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDA3JzAyLjEiTiA3M8KwMTInMjAuMyJF!5e0!3m2!1sen!2sin!4v1783609143006!5m2!1sen!2sin"
+  width="100%"
+  height="100%"
+  style={{ border: 0 }}
+  loading="lazy"
+/>
             </div>
           </div>
         </div>
