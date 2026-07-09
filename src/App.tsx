@@ -42,27 +42,27 @@ interface BookingFormData {
 
 const heroSlides = [
   {
-    image: '../public/1_land.jpeg',
+    image: '/1_land.jpeg',
     title: 'Serene Evenings Amidst Nature',
     subtitle: 'Unwind on our lush green lawns as the sun sets over the majestic hills of Jawai.'
   },
   {
-    image: '../public/2_land.jpeg',
+    image: '/2_land.jpeg',
     title: 'Welcome to Leopard Territory',
     subtitle: 'Step into Jawai Garh, where the thrill of the wild meets unparalleled royal hospitality.'
   },
   {
-    image: '../public/3_land.jpeg',
+    image: '/3_land.jpeg',
     title: 'A Grand Entrance Awaits',
     subtitle: 'Enter a realm of rustic elegance, beautifully illuminated under the vibrant evening sky.'
   },
   {
-    image: '../public/4_land.jpeg',
+    image: '/4_land.jpeg',
     title: 'Rustic Charm, Modern Luxury',
     subtitle: 'Relax in our beautifully crafted stone cottages, designed for a perfect blend of comfort and heritage.'
   },
   {
-    image: '../public/5_land.jpeg',
+    image: '/5_land.jpeg',
     title: 'Dive into Tranquility',
     subtitle: 'Take a refreshing dip in our pristine pool while soaking in the golden hues of the setting sun.'
   },
@@ -77,11 +77,11 @@ const cottageDetails = {
     extraBed: 1800,
     amenities: ['King Size Bed', 'Private Balcony', 'En-suite Bathroom', 'Mini Bar', 'Air Conditioning'],
     images: [
-      '../public/royalcottage.jpeg',
-      '../public/1_royal.jpeg',
-      '../public/2_royal.jpeg',
-      '../public/3_royal.jpeg',
-      '../public/4_royal.jpeg',
+      '/royalcottage.jpeg',
+      '/1_royal.jpeg',
+      '/2_royal.jpeg',
+      '/3_royal.jpeg',
+      '/4_royal.jpeg',
     
     ],
   },
@@ -93,25 +93,25 @@ const cottageDetails = {
     extraBed: 1800,
     amenities: ['Two Bedrooms', 'Living Area', 'Private Balcony', 'Full Bathroom', 'Air Conditioning'],
     images: [
-      '../public/familycottage.jpeg',
-      '../public/1_family.jpeg',
-      '../public/2_family.jpeg',
-      '../public/3_family.jpeg',
-      '../public/4_family.jpeg',
+      '/familycottage.jpeg',
+      '/1_family.jpeg',
+      '/2_family.jpeg',
+      '/3_family.jpeg',
+      '/4_family.jpeg',
 
     ],
   },
 };
 
 const galleryImages = [
-  { src: '../public/12.jpeg', alt: 'Jawai Garh Resort Exterior', category: 'resort' },
-  { src: '../public/2_royal.jpeg', alt: 'Luxury Cottage Interior', category: 'interior' },
-  { src: '../public/15.jpeg', alt: 'Wilderness View from Resort', category: 'resort' },
-  { src: '../public/2_royal.jpeg', alt: 'Royal Cottage Bedroom', category: 'interior' },
-  { src: '../public/11.jpeg', alt: 'Safari Landscape Jawai', category: 'resort' },
-  { src: '../public/familycottage.jpeg', alt: 'Family Cottage Living Area', category: 'interior' },
-  { src: '../public/3_land.jpeg', alt: 'Dining Area', category: 'interior' },
-  { src: '../public/3_family.jpeg', alt: 'Premium Room Amenities', category: 'interior' },
+  { src: '/12.jpeg', alt: 'Jawai Garh Resort Exterior', category: 'resort' },
+  { src: '/2_royal.jpeg', alt: 'Luxury Cottage Interior', category: 'interior' },
+  { src: '/15.jpeg', alt: 'Wilderness View from Resort', category: 'resort' },
+  { src: '/2_royal.jpeg', alt: 'Royal Cottage Bedroom', category: 'interior' },
+  { src: '/11.jpeg', alt: 'Safari Landscape Jawai', category: 'resort' },
+  { src: '/familycottage.jpeg', alt: 'Family Cottage Living Area', category: 'interior' },
+  { src: '/3_land.jpeg', alt: 'Dining Area', category: 'interior' },
+  { src: '/3_family.jpeg', alt: 'Premium Room Amenities', category: 'interior' },
 ];
 
 function Header({ onBookClick }: { onBookClick: () => void }) {
@@ -345,14 +345,14 @@ function ExperienceSection() {
               <div className="space-y-4">
                 <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-2xl">
                   <img
-                    src="../public/1_land.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="/1_land.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt="Jawai Garh Resort in Rajasthan"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div className="aspect-square rounded-lg overflow-hidden shadow-xl">
                   <img
-                    src="../public/safari.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    src="/safari.jpeg?auto=compress&cs=tinysrgb&w=400"
                     alt="Jawai Wildlife Safari"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
@@ -361,14 +361,14 @@ function ExperienceSection() {
               <div className="space-y-4 pt-8">
                 <div className="aspect-square rounded-lg overflow-hidden shadow-xl">
                   <img
-                    src="../public/rockyhills.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    src="/rockyhills.jpeg?auto=compress&cs=tinysrgb&w=400"
                     alt="Rocky Hills of Jawai"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-2xl">
                   <img
-                    src="../public/2_family.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="/2_family.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt="Luxury Cottage Interior"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
