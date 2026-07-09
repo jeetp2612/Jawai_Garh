@@ -348,14 +348,14 @@ function ExperienceSection() {
               <div className="space-y-4">
                 <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-2xl">
                   <img
-                    src="../public/1_land.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="/1_land.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt="Jawai Garh Resort in Rajasthan"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div className="aspect-square rounded-lg overflow-hidden shadow-xl">
                   <img
-                    src="../public/safari.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    src="/safari.jpeg?auto=compress&cs=tinysrgb&w=400"
                     alt="Jawai Wildlife Safari"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
@@ -364,14 +364,14 @@ function ExperienceSection() {
               <div className="space-y-4 pt-8">
                 <div className="aspect-square rounded-lg overflow-hidden shadow-xl">
                   <img
-                    src="../public/rockyhills.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    src="/rockyhills.jpeg?auto=compress&cs=tinysrgb&w=400"
                     alt="Rocky Hills of Jawai"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-2xl">
                   <img
-                    src="../public/2_family.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="/2_family.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt="Luxury Cottage Interior"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
