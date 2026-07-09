@@ -146,10 +146,13 @@ function Header({ onBookClick }: { onBookClick: () => void }) {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <a href="#home" className="flex items-center gap-3">
-            <div className={`w-10 h-10 rounded-full flex items-center justify-center ${
-              isScrolled ? 'bg-gold-500' : 'bg-white/20 backdrop-blur-sm'
-            }`}>
-              <Sun className={`w-6 h-6 ${isScrolled ? 'text-white' : 'text-gold-400'}`} />
+            <div className="w-10 h-10 flex items-center justify-center">
+              {/* Updated img: Added rounded-full for circular edges */}
+              <img 
+                src="/logo.png" 
+                alt="Jawai Garh Logo" 
+                className="w-full h-full object-cover rounded-full shadow-sm" 
+              />
             </div>
             <div>
               <span className={`text-xl font-serif font-bold ${
@@ -345,14 +348,14 @@ function ExperienceSection() {
               <div className="space-y-4">
                 <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-2xl">
                   <img
-                    src="/1_land.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="../public/1_land.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt="Jawai Garh Resort in Rajasthan"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div className="aspect-square rounded-lg overflow-hidden shadow-xl">
                   <img
-                    src="/safari.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    src="../public/safari.jpeg?auto=compress&cs=tinysrgb&w=400"
                     alt="Jawai Wildlife Safari"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
@@ -361,14 +364,14 @@ function ExperienceSection() {
               <div className="space-y-4 pt-8">
                 <div className="aspect-square rounded-lg overflow-hidden shadow-xl">
                   <img
-                    src="/rockyhills.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    src="../public/rockyhills.jpeg?auto=compress&cs=tinysrgb&w=400"
                     alt="Rocky Hills of Jawai"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div className="aspect-[3/4] rounded-lg overflow-hidden shadow-2xl">
                   <img
-                    src="/2_family.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    src="../public/2_family.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt="Luxury Cottage Interior"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
